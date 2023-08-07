@@ -1,0 +1,49 @@
+html {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: grey;
+}
+
+#flash {
+    position: sticky;
+    top: 0;
+    background-color: aquamarine;
+}
+
+#item-div {
+    text-align: center;
+    color: white;
+    background-color: black;
+    width: 200px;
+    height: 340px;
+    margin: 8px 10px;
+}
+
+#sign-in-form {
+    display: flex;
+    flex-direction: column;
+    width: 80px;
+}
+
+#item-img {
+    max-width: 50%;
+    max-height: 50%;
+}
+
+#shop {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#all-shops {
+    display: flex;
+    flex-direction: column;
+}
+
+#cart-item {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
